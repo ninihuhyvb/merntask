@@ -1,0 +1,64 @@
+#forms{
+    margin-left:30.7rem;
+    margin-top: 0px;
+}
+img{
+    width:15rem;
+    margin-left:39.2rem;
+    margin-top: 3rem;
+}
+input[type="text"]{
+    display:block;
+    width:30rem;
+    height:28px;
+}
+input[type="password"]{
+    display:block;
+    width:30rem;
+    height:28px;
+}
+
+.login{
+    display: block;
+    width:30.4rem;
+    height:2.3rem;
+    background-color:green;
+    color:white;
+    border: 1px green solid;
+}
+.navbar{
+    display: flex;
+    width:30.3rem;
+    height:3.5rem;
+    background-color: #E9E9EB;
+    margin-top:1rem;
+    border-top:2px rgb(225, 221, 221) solid;
+}
+#us{
+   font-weight: bold;
+}
+#pw{
+    font-weight: bold;
+}
+.cancel{
+    color:white;
+    background-color: red;
+    border: 0px;
+    height: 2.3rem;
+    border-radius: 8px;
+    width:5rem;
+    margin-top: 13px;
+ }
+a{
+    margin-left:17.5rem;
+    margin-top:1.4rem;
+    color:black;
+ 
+  }
+  a.underline-link{
+    text-decoration: none;
+  }
+  a.underline-link .underline{
+    text-decoration: underline;
+  }
+    

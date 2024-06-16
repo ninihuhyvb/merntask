@@ -1,0 +1,70 @@
+table {
+    background-color:#96d4d3;
+    border-radius: 12px 12px 12px 12px;
+  }
+  
+  table,
+  th,
+  tr,
+  td {
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  .t1,
+  .t2 {
+    width: 19rem;
+  }
+  .t3 {
+    width: 9rem;
+  }
+  th,
+  td,
+  tr {
+    border-radius: 18px 18px 18px 18px;
+  }
+  
+  .ff {
+    display: grid;
+    grid-template-columns: 190px 190px 190px;
+    padding: 20px;
+    margin-top: 20px;
+   
+  }
+  
+  .it {
+    height: 70px;
+    width: 130px;
+    margin: 30px;
+    border: 3.2px solid #98cb34;
+  }
+  
+  .b1 {
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  .b2 {
+    border-radius: 10px 10px 10px 10px;
+  }
+  .b3 {
+    border-radius: 20px;
+  }
+  .b4 {
+    border-radius: 15px;
+  }
+  .b5 {
+    border-radius: 3px;
+  }
+  .b6 {
+    border-radius: 25px;
+  }
+  .b8 {
+    border-radius: 5px 5px 5px 5px;
+  }
+  .b7 {
+    border-radius: 50%;
+  }
+  .b9 {
+    border-radius: 5px 15px 5px 15px;
+  }
+  
+  

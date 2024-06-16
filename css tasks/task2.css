@@ -1,0 +1,185 @@
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 250px;
+    font-size: 1.7rem;
+    margin-left: 100px;
+    /* gap:20px */
+  }
+  
+  .c2,
+  .c3,
+  .c4,
+  .c4,
+  .c5 {
+    /* flex-basis: 20px; */
+    padding: 10px;
+    padding-bottom: 0px;
+    /* gap: 20px; */
+    background-color: #add9e6;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blue;
+    flex-basis: 40px;
+  }
+  
+  .c1 {
+    padding: 10px;
+    padding-bottom: 0px;
+    background-color: #add9e6;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: blue;
+    flex-basis: 40px;
+  }
+  
+  .containerr {
+    margin-left: 250px;
+    display: inline-flex;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    color: blue;
+  }
+  
+  .d1 {
+    background-color: #d3d3d3;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-right: 2px solid blue;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .d2,
+  .d3,
+  .d4 {
+    background-color: #d3d3d3;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-right: 2px solid blue;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .d5 {
+    background-color: #d3d3d3;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 70px;
+  }
+  
+  .v1 {
+    margin: 30px;
+    display: inline-block;
+    width: 30%;
+    font-size: larger;
+    font-weight: 900;
+    margin-left: 120px;
+  }
+  .h1 {
+    margin: 30px;
+    margin-left: 140px;
+    display: inline-block;
+    width: 40%;
+    font-size: larger;
+    font-weight: 900;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: blue;
+  }
+  
+  .c1:hover a {
+    color: white;
+  }
+  
+  .c1:hover {
+    background-color: #fea500;
+    color: white;
+  }
+  
+  .c2:hover a {
+    color: white;
+  }
+  
+  .c2:hover {
+    background-color: #fea500;
+    color: white;
+  }
+  .c3:hover a {
+    color: white;
+  }
+  
+  .c3:hover {
+    background-color: #fea500;
+    color: white;
+  }
+  
+  .c4:hover a {
+    color: white;
+  }
+  
+  .c4:hover {
+    background-color: #fea500;
+    color: white;
+  }
+  .c5:hover a {
+    color: white;
+  }
+  
+  .c5:hover {
+    background-color: #fea500;
+    color: white;
+  }
+  
+  .d1:hover a {
+    color: white;
+  }
+  
+  .d1:hover {
+    background-color: #808080;
+    color: white;
+  }
+  
+  .d2:hover a {
+    color: white;
+  }
+  
+  .d2:hover {
+    background-color: #808080;
+    color: white;
+  }
+  .d3:hover a {
+    color: white;
+  }
+  
+  .d3:hover {
+    background-color: #808080;
+    color: white;
+  }
+  .d4:hover a {
+    color: white;
+  }
+  
+  .d4:hover {
+    background-color: #808080;
+    color: white;
+  }
+  .d5:hover a {
+    color: white;
+  }
+  
+  .d5:hover {
+    background-color: #808080;
+    color: white;
+  }
+  

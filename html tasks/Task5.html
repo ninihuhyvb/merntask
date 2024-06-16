@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task5</title>
+    <style>
+      h1 {
+        color: blue;
+        text-align: center;
+      }
+      .ss {
+        text-align: left;
+      }
+      .kk {
+        text-align: end;
+      }
+      table,
+      tr,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+      th {
+        width: 8.8rem;
+      }
+
+      input[type="text"] {
+        width: 26rem;
+      }
+      input[type="password"] {
+        width: 26rem;
+      }
+      input[type="email"] {
+        width: 26rem;
+      }
+      input[type="number"] {
+        width: 26rem;
+      }
+      textarea {
+        width: 26rem;
+        height: 5rem;
+      }
+      input[type="checkbox"] {
+        width: 1.1rem;
+      }
+      table {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      input[type="button"] {
+        margin-top: 15px;
+        margin-left: 655px;
+        width: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <div>
+      <table>
+        <tr>
+          <th>
+            <label for="fn">First Name</label>
+          </th>
+
+          <td>
+            <input type="text" name="Firstname" id="fn" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="ln">Last Name</label>
+          </th>
+
+          <td>
+            <input type="text" name="Lastname" id="ln" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="eml">Email</label>
+          </th>
+
+          <td>
+            <input type="email" name="email" id="eml" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="ps">Password</label>
+          </th>
+
+          <td><input type="password" name="Password" idps" /></td>
+        </tr>
+        <tr>
+          <th>
+            <label for="rps">Re-enter Password</label>
+          </th>
+
+          <td>
+            <input type="password" name="RePassword" id="rps" />
+          </td>
+        </tr>
+        <tr>
+          <th rowspan="2"><label for="male">Gender:</label></th>
+          <td><input type="radio" name="Gender" id="male" /> Male</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="Gender" id="female" />Female</td>
+        </tr>
+        <tr>
+          <th>
+            <label for="age">Age:</label>
+          </th>
+
+          <td>
+            <input type="number" name="Age" id="age" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="Phn">Phone Number</label>
+          </th>
+
+          <td>
+            <input type="number" name="Phno" id="Phn" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="ads">Address</label>
+          </th>
+
+          <td>
+            <textarea name="Addr" id="ads"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="Sts">State</label>
+          </th>
+
+          <td>
+            <input type="text" name="State" id="Sts" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="Cntry">Country</label>
+          </th>
+
+          <td>
+            <select name="Country" id="Cntry">
+              <option value="Choose_null">Choose your country</option>
+              <option value="afg">Afganistan</option>
+              <option value="alb">Albania</option>
+              <option value="aus">Australia</option>
+              <option value="chi">China</option>
+              <option value="India">India</option>
+              <option value="france">France</option>
+              <option value="germn">Germany</option>
+              <option value="tus">Russia</option>
+              <option value="jpn">Japan</option>
+              <option value="uk">United Kingdom</option>
+              <option value="usa">United States of Amaerica</option>
+              <option value="uae">U.A.E</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="lng">Languages known</label>
+          </th>
+
+          <td>
+            <input type="checkbox" name="eng" id="lng" /> English
+            <input type="checkbox" name="kan" id="lng" /> Kannada
+            <input type="checkbox" name="hin" id="lng" /> Hindi
+            <input type="checkbox" name="tel" id="lng" /> Telugu
+          </td>
+        </tr>
+        <tr>
+          <th class="ss" colspan="2">
+            <input type="checkbox" name="ack" id="ackn" />
+            <label for="ackn"
+              >Hereby I declare all the given details are true</label
+            >
+          </th>
+        </tr>
+        <tr>
+          <th class="kk" colspan="2">
+            Log in to
+            <a href="https://codemithra.com/" target="_blank">Ethnus</a> website
+          </th>
+        </tr>
+      </table>
+    </div>
+    <input type="button" value="Register" />
+  </body>
+</html>
